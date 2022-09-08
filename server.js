@@ -21,7 +21,7 @@ fastify.register(userRoute);
 
 const start = async () => {
     try {
-        await fastify.listen(process.env.PORT || 3000);
+        await fastify.listen(process.env.PORT || 9999);
     } catch (err) {
         fastify.log.error(err);
         process.exit(1);
