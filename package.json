@@ -13,7 +13,7 @@
         "nodemon": "^2.0.16"
     },
     "scripts": {
-        "start": "node server.js"
+        "start": "nodemon server.js"
     },
     "name": "fastify",
     "version": "1.0.0",
